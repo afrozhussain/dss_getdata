@@ -34,7 +34,16 @@ These signals were used to estimate variables of the feature vector for each pat
 - fBodyGyroMag
 - fBodyGyroJerkMag
 
-Script to clearn data
+Data Set
+========
+The original data set consist of training and test sets where each split into three files that contain
+
+`X_train.txt` and `X_test.txt`  measurements from the accelerometer and gyroscope
+`y_train.txt` and `y_test.txt` activity label
+`subject_train.txt` and `subject_test.txt` identifier of the subject
+
+
+Script to clean data
 =====================
 
 `run_analysis.R` script performs following tasks:
@@ -47,6 +56,6 @@ Script to clearn data
 
 
 
-
-Final Tidy Data Set
+Tidy Data Set
 ===================
+script will create a tidy data set containing the means of all the columns per test subject and per activity. This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
